@@ -166,6 +166,7 @@ __all__ = [
     'RocCurveDisplay',
     'roc_auc_score',
     'roc_curve',
+    'cumulative_gain_curve',
     'SCORERS',
     'silhouette_samples',
     'silhouette_score',
