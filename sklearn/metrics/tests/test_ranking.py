@@ -681,6 +681,7 @@ def test_binary_clf_curve_multiclass_error():
 @pytest.mark.parametrize("curve_func", [
     precision_recall_curve,
     roc_curve,
+    cumulative_gain_curve
 ])
 def test_binary_clf_curve_implicit_pos_label(curve_func):
     # Check that using string class labels raises an informative
